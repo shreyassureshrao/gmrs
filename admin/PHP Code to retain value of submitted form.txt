@@ -1,0 +1,6 @@
+<select name="chartList" class="span2 tip" required>
+								<option value = "Table" <?php if ($_POST['chartList'] == 'Table'){ ?> "checked" <?php } ?> >Tabular</option>
+								<option value = "PieChart" <?php if ($_POST['chartList'] == 'PieChart'){ ?> "checked" <?php } ?> >Pie Chart</option>
+								<option value = "BarChart" <?php if ($_POST['chartList'] == 'BarChart'){ ?> "checked" <?php } ?> >Bar Chart</option>	
+								<option value = "LineChart" <?php if ($_POST['chartList'] == 'LineChart'){ ?> "checked" <?php } ?> >Line Chart</option>
+</select>
